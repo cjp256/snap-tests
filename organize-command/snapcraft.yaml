@@ -7,7 +7,7 @@ grade: stable
 confinement: strict
 
 parts:
-  init:
+  overlay:
     plugin: dump
     source: bin/
     organize:
