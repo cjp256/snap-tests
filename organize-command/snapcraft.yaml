@@ -1,0 +1,17 @@
+name: organize-command
+base: core18
+version: 'test1'
+summary: test
+description: test
+grade: stable
+confinement: strict
+
+parts:
+  init:
+    plugin: dump
+    source: bin/
+    organize:
+      overlay.sh: bin/overlay.sh
+apps:
+  overlay:
+    command: bin/overlay.sh
