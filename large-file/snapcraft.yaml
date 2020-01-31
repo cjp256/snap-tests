@@ -1,0 +1,16 @@
+name: large-file
+base: core18
+version: 'test1'
+summary: test
+description: test
+grade: stable
+confinement: strict
+
+parts:
+  local:
+    plugin: dump
+    source: .
+
+apps:
+  test-app:
+    command: test-app.sh
