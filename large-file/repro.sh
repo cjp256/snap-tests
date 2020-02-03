@@ -11,7 +11,7 @@ if [ ! -f data/large-file ]; then
 fi
 
 export SNAPCRAFT_BUILD_ENVIRONMENT_DISK="64G"
-export SNAPCRAFT_BUILD_ENVIRONMENT"=multipass"
+export SNAPCRAFT_BUILD_ENVIRONMENT="multipass"
 
 while true; do
   for i in $(seq 1 1200); do
