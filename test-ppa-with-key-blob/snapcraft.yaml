@@ -21,7 +21,7 @@ package-management:
     - source: http://ppa.launchpad.net/cjp256/test-ppa/ubuntu
       gpg-public-key: |
         -----BEGIN PGP PUBLIC KEY BLOCK-----
-
+        fooo
         mQINBF4y3MIBEAC6rYxrDtleK/OPftHKySm5nN8OIc+tBFnGr9pz4eu2CRukFxXc
         Ap07pj5EkRbzI60BeGVK/spLFtrU7PPxBXJ3DiaxEaWmOUW/7MdukSWTVk9EgEAZ
         dwKjbwNrrxmCif8RJzK9JFz1IqGqY/uzR7X90J2Wn4/+FvWNofE2kCQeGEpDQtmF
