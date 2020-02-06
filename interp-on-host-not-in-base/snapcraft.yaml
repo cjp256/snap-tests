@@ -1,4 +1,4 @@
-name: fake-interp-test
+name: interp-on-host-but-not-in-base
 base: core18
 version: '0.1'
 summary: interpreter on host, but not in base
