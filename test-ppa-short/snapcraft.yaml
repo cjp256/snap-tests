@@ -7,15 +7,13 @@ grade: stable
 confinement: strict
 
 parts:
-  test-ppa:
+
+  test-git:
     plugin: nil
-    stage-packages:
-      - test-ppa
+    source: https://github.com/ubuntu/yaru.git
+    source-depth: 1
+    source-commit: c324c18dc78f7b33b660b14797db993d1da852b5
 
 apps:
     test-ppa:
       command: test-ppa
-
-package-management:
-  repositories:
-    - source: ppa:cjp256/test-ppa

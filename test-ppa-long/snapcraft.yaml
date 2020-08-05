@@ -19,4 +19,4 @@ apps:
 package-management:
   repositories:
     - source: http://ppa.launchpad.net/cjp256/test-ppa/ubuntu
-      gpg-public-key-id: 6A634116E00F4C82
+      gpg-public-key-id: 590CA3D8E4826565BE3200526A634116E00F4C82
